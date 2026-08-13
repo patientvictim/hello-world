@@ -1,0 +1,16 @@
+{
+  "name": "hello-world static site",
+  "terminals": [
+    {
+      "name": "web",
+      "command": "python3 -m http.server 8000 --bind 0.0.0.0 --directory .",
+      "description": "Serves the static site (index.html, styles.css, images) on http://localhost:8000."
+    }
+  ],
+  "ports": [
+    {
+      "name": "web",
+      "port": 8000
+    }
+  ]
+}
