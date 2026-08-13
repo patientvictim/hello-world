@@ -1,0 +1,12 @@
+{
+  "name": "hello-world",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "text-to-video": "node scripts/text-to-video.mjs"
+  },
+  "dependencies": {
+    "@runwayml/sdk": "^2.0.0",
+    "dotenv": "^16.4.7"
+  }
+}
