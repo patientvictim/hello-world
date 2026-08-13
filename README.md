@@ -1,5 +1,20 @@
 # Welcome to GitHub
 
+## Runway Dev API text-to-video example
+
+This repository includes a Node.js example for `POST /v1/text_to_video` using
+Runway's official SDK and the `seedance2_mini` model.
+
+1. Copy `.env.example` to `.env`.
+2. Set `RUNWAYML_API_SECRET` in `.env`. Never commit this file.
+3. Install dependencies with `npm install`.
+4. Run `npm run generate`.
+
+The request creates a four-second, 720p video without audio and then uses the
+SDK's documented `waitForTaskOutput()` helper to poll until the task succeeds or
+fails. Successful output URLs are temporary, so download any result you want to
+keep.
+
 Welcome to GitHub—where millions of developers work together on software. Ready to get started? Let’s learn how this all works by building and publishing your first GitHub Pages website!
 
 ## Repositories

@@ -1,0 +1,25 @@
+{
+  "name": "runway-text-to-video-example",
+  "version": "1.0.0",
+  "description": "Runway Dev API text-to-video SDK example",
+  "type": "module",
+  "scripts": {
+    "generate": "node generate-video.js",
+    "test": "node --check generate-video.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/patientvictim/hello-world.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/patientvictim/hello-world/issues"
+  },
+  "homepage": "https://github.com/patientvictim/hello-world#readme",
+  "dependencies": {
+    "@runwayml/sdk": "^4.13.2",
+    "dotenv": "^17.4.2"
+  }
+}
