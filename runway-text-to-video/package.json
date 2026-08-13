@@ -1,0 +1,17 @@
+{
+  "name": "runway-text-to-video",
+  "version": "1.0.0",
+  "description": "Minimal example: generate a video from a text prompt using the Runway Dev API.",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@runwayml/sdk": "^4.13.2",
+    "dotenv": "^17.4.2"
+  }
+}
