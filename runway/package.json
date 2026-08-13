@@ -1,0 +1,13 @@
+{
+  "name": "runway-text-to-video-quickstart",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Minimal end-to-end Runway Dev API text-to-video example using the official Node SDK.",
+  "scripts": {
+    "generate": "node --env-file=.env generate-video.mjs"
+  },
+  "dependencies": {
+    "@runwayml/sdk": "^3"
+  }
+}
